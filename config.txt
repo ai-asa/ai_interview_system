@@ -1,0 +1,30 @@
+[CONFIG]
+retry_limit = 5
+data_limit = 20
+gpt_40 = gpt-4-0125-preview
+gpt_35 = gpt-3.5-turbo-0125
+token_limimt = 2000
+templete_json_path=./docs/interview_templete/templete.json
+templete_audiofile_path=./data/templete_audio/
+resume_json_path=./docs/resume/saiyo1.json
+device_list_path=./device_list.txt
+device_name=Hi-Fi Cable Output (VB-Audio Hi
+vits_model_id = 4
+receiver_path = G:/マイドライブ/interview_system/receiver
+output_path = G:/マイドライブ/interview_system/receiver/message_data.json
+[INDEX]
+token_limit = 3000
+openai_model = gpt-4-preview
+retry_limit = 5
+sauce_text_path = ./data/reference_data/nier_automata_wikipedia.txt
+index_path = ./data/index/
+a_json_path = ./data/index/a_text.json
+openai_model_16k = gpt-3.5-turbo-0125
+[SPLITTER]
+qa_text_path = ./data/index/qa.txt
+[GFORM]
+token_file = ./GCP/tokens/token.json
+credentials_file = ./GCP/secret-key/credentials.json
+[DATA]
+richmenu_ids_path = ./data/richmenu/ids/ids.json
+richmenu_images_path = ./data/richmenu/images/
