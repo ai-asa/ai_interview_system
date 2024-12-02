@@ -4,6 +4,7 @@ data_limit = 20
 gpt_40 = gpt-4-0125-preview
 gpt_35 = gpt-3.5-turbo-0125
 token_limimt = 2000
+credentials_path=./gcp/secret-key/credentials_file.json
 templete_json_path=./docs/interview_templete/templete.json
 templete_audiofile_path=./data/templete_audio/
 resume_json_path=./docs/resume/saiyo1.json

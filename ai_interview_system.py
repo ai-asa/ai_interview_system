@@ -16,8 +16,8 @@ class InterviewSystem:
     LINE_ACCESS_TOKEN = os.getenv('LINE_ACCESS_TOKEN')
     config = configparser.ConfigParser()
     config.read('config.txt')
-    gpt_35 = config.get('CONFIG', 'gpt_35', fallback='gpt-4-preview')
-    gpt_40 = config.get('CONFIG', 'gpt_40', fallback='gpt-3.5-turbo-0125')
+    gpt_35 = config.get('CONFIG', 'gpt_35', fallback='gpt-3.5-turbo-0125')
+    gpt_40 = config.get('CONFIG', 'gpt_40', fallback='gpt-4-preview')
     templete_json_path = config.get('CONFIG', 'templete_json_path', fallback='./docs/interview_templete/templete.json')
     templete_audiofile_path = config.get('CONFIG', 'templete_audiofile_path', fallback='./data/templete_audio/')
     with open(templete_json_path,'r',encoding='utf-8') as f:
