@@ -29,7 +29,7 @@ Live2D AIアバターによる自動面接システムです。LINEボットを�
 
 1. リポジトリをクローン:
 
-    git clone [repository-url]
+    git clone https://github.com/ai-asa/ai_interview_system.git
 
 2. 依存パッケージをインストール:
 
